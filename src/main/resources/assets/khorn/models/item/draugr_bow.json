@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "minecraft:item/bow"
+    "layer0": "khorn:item/draugr_bow"
   },
   "display": {
     "thirdperson_righthand": {

@@ -1,6 +1,41 @@
 {
-  "parent": "item/generated",
+  "credit": "Made with Blockbench",
+  "parent": "item/handheld",
   "textures": {
-    "layer0": "minecraft:item/diamond_sword"
+    "layer0": "khorn:item/draugr_longsword"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [9, -90, 55],
+      "translation": [0, 11, 1],
+      "scale": [2, 2, 1]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [7, 90, -55],
+      "translation": [0, 11.25, 0.5],
+      "scale": [2, 2, 1]
+    },
+    "firstperson_righthand": {
+      "rotation": [-39.5, -90, 0],
+      "translation": [1.13, 8.7, 1.38],
+      "scale": [2, 2, 1]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-43.25, 90, 0],
+      "translation": [1.13, 8.95, 1.63],
+      "scale": [2, 2, 1]
+    },
+    "ground": {
+      "translation": [0, 4.75, 0],
+      "scale": [1, 1, 0.5]
+    },
+    "gui": {
+      "translation": [1, 1.25, 0],
+      "scale": [1.1, 1.1, 1]
+    },
+    "fixed": {
+      "translation": [1, 1.5, 0],
+      "scale": [1.4, 1.4, 1]
+    }
   }
 }
