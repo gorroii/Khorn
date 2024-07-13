@@ -19,7 +19,7 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.khorn_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.DRAUGR_BONE.get());
-
+                        pOutput.accept(ModItems.DRAUGR_LONGSWORD.get());
                     })
                     .build());
 
