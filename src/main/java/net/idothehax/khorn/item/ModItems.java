@@ -1,6 +1,8 @@
 package net.idothehax.khorn.item;
 
 import net.idothehax.khorn.Khorn;
+import net.idothehax.khorn.item.custom.DraugrAxe;
+import net.idothehax.khorn.item.custom.DraugrBow;
 import net.idothehax.khorn.item.custom.DraugrLongsword;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Tiers;
@@ -18,6 +20,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> DRAUGR_LONGSWORD = ITEMS.register("draugr_longsword",
             DraugrLongsword::new);
+
+    public static final RegistryObject<Item> DRAUGR_BOW = ITEMS.register("draugr_bow",
+            DraugrBow::new);
+
+    public static final RegistryObject<Item> DRAUGR_AXE = ITEMS.register("draugr_axe",
+            DraugrAxe::new);
 
 
     public static void register(IEventBus eventBus) {
